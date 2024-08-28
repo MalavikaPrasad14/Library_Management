@@ -1,0 +1,104 @@
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.website-name {
+    color: #000000;
+    font-size: 24px;
+    margin: 0;
+}
+
+.homepic {
+    width: 100%;
+    padding: 0 auto;
+    position: relative;
+
+}
+
+
+
+  .image-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+
+.overlay-heading {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    transform: translate(-50%, -50%); /* Center the heading */
+    color: white;
+    font-size: 2em;/* Adjust the size as needed */
+    text-align: left;
+    padding: 10px;
+    width: 80%; /* Adjust width as needed for responsiveness */
+    /* box-sizing: border-box; */
+    /* Ensures padding is included in width */
+}
+
+.overlay-heading1{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    color: white;
+    font-weight: 500;
+
+}
+
+.category{
+    background-image: url(images/5.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+/* .card-img-top{
+    height: 10%;
+} */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dfb7b733;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.book-detail-section h2 {
+    font-weight: 700;
+    color: #333;
+}
+
+.book-detail-section h5 {
+    font-weight: 500;
+    color: #666;
+}
+
+.book-detail-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
